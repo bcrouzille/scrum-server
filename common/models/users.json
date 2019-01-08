@@ -5,7 +5,10 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {"isAdmin": {
+    "type": "boolean",
+    "default": false
+  }},
   "validations": [],
   "relations": {
     "rooms": {

@@ -9,6 +9,10 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "isClosed": {
+      "type": "boolean",
+      "default": false
     }
   },
   "validations": [],
