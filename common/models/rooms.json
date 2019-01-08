@@ -9,6 +9,10 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "owner":{
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],
@@ -17,9 +21,13 @@
       "type": "hasAndBelongsToMany",
       "model": "items",
       "foreignKey": ""
+    },
+    "users": {
+      "type": "hasAndBelongsToMany",
+      "model": "users",
+      "foreignKey": ""
     }
   },
-  "acls": [
-  ],
+  "acls": [],
   "methods": {}
 }

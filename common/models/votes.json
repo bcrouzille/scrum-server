@@ -9,6 +9,10 @@
     "score": {
       "type": "number",
       "required": true
+    },
+    "username": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
